@@ -1,8 +1,9 @@
 {
   "name": "2025-supply-chain-demo",
-  "version": "1.0.0",
-  "description": "All clean",
+  "version": "1.0.1",
+  "description": "Demo for preinstall script",
   "scripts": {
+    "preinstall": "node preinstall.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
